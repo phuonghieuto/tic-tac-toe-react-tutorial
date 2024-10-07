@@ -1,4 +1,4 @@
-<h1 align="center">TIC-TAC-TOE-REACT_TUTORIAL</h1>
+<h1 align="center">TIC-TAC-TOE</h1>
 
 ## :rocket: Knowledges
 
