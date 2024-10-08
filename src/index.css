@@ -131,7 +131,8 @@ body {
 }
 
 .winner-announcement {
-  flex: 1;
+  display: flex;
+  justify-content: center;
   color: #eee;
   text-align: left;
 }
@@ -148,10 +149,9 @@ body {
 }
 
 .history {
-  padding-left: 50px;
-  text-align: left;
+  display: flex;
+  justify-content: center;
 }
-
 
 
 .tic-tac-toe button {
@@ -167,10 +167,11 @@ body {
 }
 
 .tic-tac-toe ol {
-  text-align: left;
+  width: 100%;
 }
 
 .tic-tac-toe li {
+  margin-left: 60px;
   text-align: left;
   list-style-type: none;
 }

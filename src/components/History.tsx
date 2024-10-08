@@ -50,10 +50,13 @@ function History({ history, currentMove, onJumpTo }: HistoryProps) {
 
     return (
         <>
-            <button onClick={toggleSortOrder}>
-                {isAscending ? 'Sort Descending' : 'Sort Ascending'}
-            </button>
-            <ol>{moves}</ol>
+            <ol>
+                <li>
+                    <button onClick = {toggleSortOrder}>
+                        {isAscending ? 'Sort Descending' : 'Sort Ascending'}
+                    </button>
+                </li>
+                {moves}</ol>
         </>
     );
 }
